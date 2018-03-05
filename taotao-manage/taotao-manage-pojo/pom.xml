@@ -13,6 +13,5 @@
 			<groupId>tk.mybatis</groupId>
 			<artifactId>mapper</artifactId>
 		</dependency>
-
 	</dependencies>
 </project>

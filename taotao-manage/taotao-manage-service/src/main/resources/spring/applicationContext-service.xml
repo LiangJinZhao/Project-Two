@@ -21,7 +21,11 @@
 			1.取消广播,客户端直接到指定的URL获取服务
 			2.注册地址
 	 -->
-	 <dubbo:registry address="N/A"/>
+	<!--  <dubbo:registry address="N/A"/> -->
+	<!--使用注册中心实现dubbo连接
+		关闭直连方式
+	  -->
+	  <dubbo:registry protocol="zookeeper" address="192.168.12.168:2181"></dubbo:registry>
 
 	<!-- 用dubbo协议在20880端口暴露服务；端口号唯一即可 -->
 	<dubbo:protocol name="dubbo" port="20880" />

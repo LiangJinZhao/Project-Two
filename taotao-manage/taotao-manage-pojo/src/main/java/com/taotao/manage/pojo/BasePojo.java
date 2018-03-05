@@ -1,4 +1,4 @@
-package cn.itcast.mybatis.pojo;
+package com.taotao.manage.pojo;
 
 import java.io.Serializable;
 import java.util.Date;

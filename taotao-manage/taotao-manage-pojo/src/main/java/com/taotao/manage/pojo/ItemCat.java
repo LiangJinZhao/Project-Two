@@ -1,4 +1,4 @@
-package cn.itcast.mybatis.pojo;
+package com.taotao.manage.pojo;
 
 import javax.persistence.Column;
 import javax.persistence.GeneratedValue;
